@@ -1,0 +1,306 @@
+.wrapper {
+	display: block;
+	width: 1280px;
+	height: 1022px;
+	margin: 0 auto;
+	background: url(../img/mainbackground.jpg) 0 0 no-repeat;
+	padding-top: 38px;
+}
+
+.content {
+	width: 1000px;
+	height: 991px;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 0 0 10px #000000;
+	overflow: hidden;
+}
+
+.clearfix:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+/*CONTACTS*/
+
+.contacts {
+	float: right;
+	margin-top: 12px;
+	margin-right: 33px;
+}
+
+.contacts li {
+	font-family: "Tahoma";
+	font-size: 12px;
+	color: #128aa7;
+	line-height: 1.4;
+}
+
+/*LOGO*/
+
+.logo {
+	position: relative;
+	float: left;
+	margin-top: 8px;
+	margin-left: 27px;
+}
+
+.logo figcaption {
+	position: absolute;
+	top: 100px;
+	left: 72px;
+	line-height: 1.2;
+	text-align: left;
+	font-family: "Tahoma";
+	font-size: 12px;
+	color: #128aa7;
+}
+
+/*NAV_COUNTRIES*/
+
+.nav_countries {
+	float: right;
+	clear: right;
+	margin-top: 34px;
+	margin-right: 41px;
+}
+
+.countries li {
+	float: left;
+	margin-right: 5px;
+}
+
+.countries .maldives {
+	margin-right: 0;
+}
+
+.countries li a {
+	display: block;
+	text-align: center;
+	padding-top: 45px;
+	color: #128aa7;
+	background-position: center top;
+	background-repeat: no-repeat;
+	width: 54px;
+	height: 10px;
+	font-family: "Tahoma";
+	font-size: 10px;
+}
+
+.countries .india a {
+	background-image: url(../img/India.png);
+}
+
+.countries .nepal a {
+	background-image: url(../img/Nepal.png);
+}
+
+.countries .tibet a {
+	background-image: url(../img/Tibet.png);
+}
+
+.countries .butan a {
+	background-image: url(../img/Butan.png);
+}
+
+.countries .sri-lanka a {
+	background-image: url(../img/Sri-Lanka.png);
+}
+
+.countries .maldives a {
+	background-image: url(../img/Maldives.png);
+}
+
+.countries li a:hover {
+	color: #0000CC;
+}
+
+/*PHOTO*/
+
+.photo {
+	display: block;
+	width: 1000px;
+	height: 237px;
+	clear: both;
+}
+
+/*MENU*/
+
+.menu {
+	display: block;
+	position: relative;
+	width: 1000px;
+	height: 28px;
+	border-bottom: 2px solid black;
+	background: linear-gradient(to top, #373737, #303030);
+	box-shadow: 0 3px 10px #000000;
+	z-index: 5;
+}
+
+.menu li {
+	float: left;
+	height: 28px;
+	z-index: 5;
+}
+
+.menu > li {
+	margin-left: 67px;
+}
+
+.menu li:hover {
+	background: #202020;
+}
+
+.menu li a {
+	text-decoration: none;
+	line-height: 28px;
+	vertical-align: middle;
+	color: white;
+	font-family: "Tahoma";
+	font-size: 14px;
+}
+
+.menu li .submenu {
+	display: none;
+	position: absolute;
+	top: 30px;
+	margin: 0;
+	width: 150px;
+	height: 125px;
+	background: #303030;
+	box-shadow: 0 3px 10px #000000;
+	z-index: 1;
+}
+
+.menu li .submenu1 {
+	left: 174px;
+}
+
+.menu li .submenu2 {
+	left: 326px;
+}
+
+.menu li .submenu3 {
+	left: 436px;
+}
+
+.menu li .submenu li {
+	display: block;
+	height: 24px;
+	padding: 0 10px;
+	margin-right: 20px;
+}
+
+.menu li:hover .submenu {
+	display: block;
+}
+
+/*MAIN*/
+
+.fon1 { 
+	width: 100%;
+	background: #edeef0;
+	float: left; 
+	position: relative; 
+	right: 58%; 
+	z-index: 1;
+	border-right: 2px solid #c7cacf;
+} 
+
+.fon2 { 
+	width: 100%;
+	background: #ffffff;
+	float: left;
+	position: relative;
+	right: 21%; 
+	border-right: 2px solid #c7cacf;
+}
+
+.fon3 { 
+	width: 100%;
+	background: #edeef0;
+	float: left;
+}
+
+.info {
+	width: 21%;
+	float: left;
+	overflow: hidden; 
+	position:relative;
+	left: 79%; 
+}
+
+.text {
+	width: 58%;
+	float: left;
+	overflow: hidden;
+	position:relative;
+	left: 79%;
+}
+
+.news {
+	width: 21%;
+	float: left;
+	overflow: hidden;
+	position:relative;
+	left: 79%;
+}
+
+h2 {
+	color: #424c43;
+	font-family: "Tahoma";
+	font-size: 18px;
+	margin-top: 12px;
+}
+
+.news h2 {
+	padding-left: 67px;
+}
+
+.info h2 {
+	padding-left: 52px;
+}
+
+.content p {
+	height: 100%;
+	line-height: 1.72;
+	padding: 15px;
+	color: #424c43;
+	font-family: "Tahoma";
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+/*FOOTER*/
+
+footer {
+	width: 1000px;
+	height: 20px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 7px;
+}
+
+footer span {
+	color: #ffffff;
+	font-family: "Tahoma";
+	font-size: 12px;
+	line-height: 1.2;
+}
+
+.Copyright_C__asia_holidays_com__2010 {
+	font-size: 40px;
+	font-family: "Tahoma";
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 1.2;
+	text-align: left;
+	-moz-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+	-webkit-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+	-ms-transform: matrix( 0.30025102042405,0,0,0.30025102042405,0,0);
+	position: absolute;
+	left: 320.285px;
+	top: 1015.491px;
+	z-index: 3;
+}
+
